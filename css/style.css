@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+* /* CSS Prolog */
+{
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	font-family: Verdana, Helvetica, Tahoma, Arial, sans-serif;
+}
+
+body
+{
+	background: #EEE;
+	color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #005bae;
+}
+
+img
+{
+	border: none;
+	vertical-align: bottom;
+}
+
+p
+{
+ 	margin-bottom: 10px;
+ 	color: #005BAE;
+}
+
+#wrapper
+{
+	margin: 10px auto;
+	width: 980px;
+	background: #FFF url(../images/wrapperbg.jpg) repeat-y center;
+}
+
+#wrapper a
+{
+	color: #005bae;
+}
+
+#header
+{
+	margin-bottom: 10px;
+	padding: 10px;
+	background: url(../images/headerbg.jpg) top center no-repeat;
+}
+
+	#logo
+	{
+		margin: 5px;
+		display: inline-block;
+		width: 200px;
+	}
+
+	#account
+	{
+		float: right;
+		font-size: 105%;
+	}
+
+		#account table
+		{
+			width: 200px;
+			border-collapse: collapse;
+		}
+
+		#account th
+		{
+			text-align: left;
+			font-weight: bold;
+			padding: 2px;
+		}
+
+		#account a
+		{
+			font-weight: normal;
+		}
+
+	#navigation
+	{
+		height: 38px;
+		line-height: 30px;
+		background: #005bae url(../images/navibg.jpg) repeat-x;
+		margin-top: 10px;
+		clear: both;
+		overflow: hidden;
+		text-transform: uppercase;
+	}
+
+		#navigation form
+		{
+			float: left;
+		}
+
+		#navigation form select {
+			margin: 5px;
+			border: 0;
+			height: 16px;
+			float: left;
+			font-size: 14px;
+		}
+
+	#bscselect {
+		width: 360px;
+	}
+	
+	#bscselect option {
+		font-size: 14px;
+	}
+
+	#menu
+	{
+		list-style: none;
+		float: left;
+		width: 400px;
+	}
+
+		#menu li
+		{
+			display: inline-block;
+			margin: 0;
+		}
+
+		#menu a {
+			font-size: 14px;
+			color: #FFFFFF;
+			text-decoration: none;
+			margin: 0 20px;
+		}
+
+		#menu a:hover {
+			color: #FFC573;
+		}
+
+		#cal
+		{
+			font-size: 14px;
+			width: 200px;
+			float: right;
+		}
+		
+		input #caldate {
+			width: 100px;
+			font-size: 14px;
+		}
+		
+		.pin {
+			background: #005bae url(../images/pin.jpg) repeat-x;
+			height: 30px;
+			width: 30px;
+			border: 0;
+		}
+		
+		.pin:hover {
+			background: #005bae url(../images/pinhover.jpg) repeat-x;
+		}
+
+.box
+{
+	margin: 0 10px 10px 0px;
+	padding: 10px;
+	float: left;
+	border-top: 1px #DDD solid;
+	border-bottom: 1px #DDD solid;
+	background: #EEE;
+}
+
+.g75p {
+	width: 690px;
+}
+.g25p {
+	width: 220px;
+}
+.g100p {
+	width: 940px;
+}
+
+
+#content
+{	margin-left: 10px;
+	font-size: 12px;
+	font-stretch: expanded;
+	width: 970px
+}
+
+#footer
+{
+	margin-top: 10px;
+	padding: 10px;
+	clear: both;
+	background: url(../images/footerbg.jpg) repeat-x bottom center;
+}
+
+/************
+* Formulare *
+************/
+
+#login
+{
+	margin: 0 auto;
+	float: none;
+}
+
+.form-box-login
+{
+	padding: 10px;
+	width: 175px;
+	float: left;
+	border: #DDD 1px solid;
+	background: #EEE;
+}
+
+.form-group-box
+{
+	margin-bottom: 10px;
+}
+
+	.form-group-box input[type=text],
+	.form-group-box input[type=password],
+	.form-group-box textarea,
+	.form-group-box select,
+	.form-group-box option
+	{
+		padding: 3px;
+		border: #AAA 1px solid;
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-khtml-box-sizing: border-box;
+	}
+
+
+label
+{
+	display: block;
+}
+
+fieldset
+{
+	border: none;
+}
+
+
+
+
+/**********
+* Klassen *
+**********/
+
+.detail_options
+{
+	text-align: left !important;
+}
+
+.bscrow {
+	background: #619FD7;
+	color: #fff;
+}
+
+.perrow {
+	background: #FFC573;
+}
+
+.odd {
+	background: #FFF;
+}
+
+.even {
+	background: #ffeed5;
+}
+
+
+
+/********
+* PAGES *
+********/
+
+#content table
+{
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#content td,
+#content th
+{
+	padding: 3px;
+	text-align: center;
+}
+
+#content tr
+{
+	height: 30px;
+}
+
+#datagrid .head
+{
+	text-align: right;
+	font-weight: bold;
+}

@@ -1,0 +1,11 @@
+# .htaccess
+
+# PHP 5.3.1
+AddHandler php53-cgi .php
+
+# Session Lifetime
+php_value session.cookie_lifetime 3600
+php_value session.gc_maxlifetime 3600
+
+# Script Timeout
+php_value max_execution_time 60
